@@ -1,0 +1,22 @@
+{
+  "name": "aula-1-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luisgustavo559/Aula-1-Back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luisgustavo559/Aula-1-Back/issues"
+  },
+  "homepage": "https://github.com/Luisgustavo559/Aula-1-Back#readme",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}
