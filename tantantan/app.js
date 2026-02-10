@@ -6,8 +6,9 @@ app.get('/pace_de_moto', (req, res, next) => {
     return res.status(200).sendFile('senna.html', {root: './'})
 });
 
-app.get('/pilotos', async (req, res, next) => {
-    const result = await mysql.execute("SELECT * FROM pilotos");
+app.get('/pilotos/:id', async (req, res, next) => {
+    const idev4 = req.params.id;
+    const result = await mysql.execute("SELECT * FROM pilotos H+WHERE ");
     return res.status(200).json(result);
 });
 
